@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
@@ -35,7 +36,10 @@ export function Navbar() {
       >
         <div className="hidden xxl:flex items-center gap-1.5">
           <Link href="#">
-            <img src="/Logo2.svg" alt="ISCD" className="h-12 w-12" />
+            <Image src="/Logo2.svg" alt="ISCD" 
+            height={48}
+            width={48}
+            />
           </Link>
           <p className="text-white text-xl font-arimo">ISCD</p>
         </div>
@@ -58,7 +62,10 @@ export function Navbar() {
             Servicios
           </Link>
           <Link className="flex items-center gap-1.5 " href="#">
-            <img src="/Logo2.svg" alt="ISCD" className="h-12 w-12 " />
+            <Image src="/Logo2.svg" alt="ISCD" 
+            height={48}
+            width={48}
+            />
             <p className="text-white text-xl font-arimo">ISCD</p>
           </Link>
           <Link
@@ -78,7 +85,10 @@ export function Navbar() {
         <div className="xl:hidden flex items-center justify-between flex-1">
           <div className="flex items-center">
             <Link href="#">
-              <img src="/Logo2.svg" alt="ISCD" className="h-12 w-12" />
+              <Image src="/Logo2.svg" alt="ISCD" 
+              height={48}
+              width={48}
+              />
             </Link>
             <p className="text-white text-xl font-arimo ps-2">ISCD</p>
           </div>

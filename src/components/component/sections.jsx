@@ -1,9 +1,5 @@
 "use client";
-import Link from "next/link";
-import { CarouselItem, Carousel } from "@/components/ui/carousel";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export function Sections() {
@@ -50,12 +46,12 @@ export function Sections() {
               transition={{ duration: 1.1 }}
             >
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
+                  height={200}
+                  width={200}
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
@@ -67,12 +63,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
+                  height={200}
                   src="/placeholder.svg"
-                  width="200"
+                  width={200}
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">Cloud Security</h3>
@@ -82,12 +78,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
@@ -99,12 +95,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
@@ -116,12 +112,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
@@ -133,12 +129,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
@@ -152,11 +148,15 @@ export function Sections() {
             </motion.div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-16 lg:py-24 bg-white text-black" id="nosotros">
-          <motion.div className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
-          initial={{ opacity: 0, y: 100}}
-          whileInView={{ opacity: 1, y: 0}}
-          transition={{ duration: 1.1 }}
+        <section
+          className="w-full py-12 md:py-16 lg:py-24 bg-white text-black"
+          id="nosotros"
+        >
+          <motion.div
+            className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.1 }}
           >
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -170,12 +170,12 @@ export function Sections() {
             <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-4 xl:gap-8">
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200">
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    height="100"
                     src="/placeholder.svg"
-                    width="100"
                   />
                 </div>
                 <div className="space-y-2">
@@ -187,12 +187,12 @@ export function Sections() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200">
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    height="100"
                     src="/placeholder.svg"
-                    width="100"
                   />
                 </div>
                 <div className="space-y-2">
@@ -204,12 +204,12 @@ export function Sections() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200 ">
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    height="100"
                     src="/placeholder.svg"
-                    width="100"
                   />
                 </div>
                 <div className="space-y-2">
@@ -221,12 +221,12 @@ export function Sections() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200 ">
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    height="100"
                     src="/placeholder.svg"
-                    width="100"
                   />
                 </div>
                 <div className="space-y-2">
@@ -240,33 +240,34 @@ export function Sections() {
           </motion.div>
         </section>
         <section className="w-full py-12 md:py-16 lg:py-24 bg-white text-black">
-          <motion.div className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
-          initial={{ opacity: 0, y: 100}}
-          whileInView={{ opacity: 1, y: 0}}
-          transition={{ duration: 1.1 }}
+          <motion.div
+            className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.1 }}
           >
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Customer Testimonials
               </h2>
-              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Our clients love the peace of mind that comes with ISCD's
+              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Our clients love the peace of mind that comes with ISCDs
                 security solutions.
               </p>
             </div>
             <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-3 xl:gap-8">
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Avatar"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <p className="text-sm text-gray-500 ">
-                    ISCD's team of experts provided top-notch service. I
-                    couldn't be happier with the level of security they
+                    ISCDs team of experts provided top-notch service. I
+                    couldnt be happier with the level of security they
                     implemented at our company.
                   </p>
                   <p className="font-semibold tracking-tighter">Alice Smith</p>
@@ -276,12 +277,12 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Avatar"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <p className="text-sm text-gray-500 ">
@@ -296,16 +297,16 @@ export function Sections() {
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   alt="Avatar"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  height="200"
                   src="/placeholder.svg"
-                  width="200"
                 />
                 <div className="space-y-2">
                   <p className="text-sm text-gray-500 ">
-                    ISCD's team is incredibly knowledgeable and helped us
+                    ISCDs team is incredibly knowledgeable and helped us
                     navigate the complex world of cybersecurity. I highly
                     recommend their services.
                   </p>
@@ -319,10 +320,11 @@ export function Sections() {
           </motion.div>
         </section>
         <section className="w-full py-80" id="contacto">
-          <motion.div className="container px-4 md:px-6"
-          initial={{ opacity: 0,scale : 0.4}}
-          whileInView={{ opacity: 1,  scale: 1}}
-          transition={{ duration: 1.1 }}
+          <motion.div
+            className="container px-4 md:px-6"
+            initial={{ opacity: 0, scale: 0.4 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.1 }}
           >
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -343,81 +345,17 @@ export function Sections() {
                 >
                   Contact Us
                 </Link> */}
-                <motion.button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-        
-        >
-        <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-sm font-medium text-white backdrop-blur-3xl font-sphere-fez">
-        Contactanos
-        </span>
-      </motion.button>
+                <motion.button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-sm font-medium text-white backdrop-blur-3xl font-sphere-fez">
+                    Contactanos
+                  </span>
+                </motion.button>
               </div>
             </div>
           </motion.div>
         </section>
       </main>
     </div>
-  );
-}
-
-function MailIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="20" height="16" x="2" y="4" rx="2" />
-      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-    </svg>
-  );
-}
-
-function HelpCircleIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="10" />
-      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
-      <path d="M12 17h.01" />
-    </svg>
-  );
-}
-
-function PhoneCallIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-      <path d="M14.05 2a9 9 0 0 1 8 7.94" />
-      <path d="M14.05 6A5 5 0 0 1 18 10" />
-    </svg>
   );
 }
