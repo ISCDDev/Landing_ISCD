@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'digital-desolation': ['Digital Desolation', 'sans-serif'],
+        'space-age': ['Space Age', 'sans-serif'],
+        'sphere-fez': ['SPHERE FEZ', 'sans-serif'],
+        'midnew' : ['Midnew', 'sans-serif'],
+        'arimo': ['Arimo', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
