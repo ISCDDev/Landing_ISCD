@@ -21,7 +21,7 @@ export function Footer() {
              />
 
             <p className="text-gray-500 text-base">
-              Making the cyber world safer one byte at a time.
+              Tu seguridad, nuestra prioridad
             </p>
             <div className="flex space-x-6">
               <a className="text-gray-400 hover:text-gray-300" href="#">
@@ -39,7 +39,7 @@ export function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Solutions
+                  Soluciones
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
@@ -78,7 +78,7 @@ export function Footer() {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Support
+                  Soporte
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
@@ -119,7 +119,7 @@ export function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Company
+                  Compania
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
@@ -196,9 +196,13 @@ export function Footer() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <p className="text-base text-gray-400 xl:text-center">
-            © 2023 ISCD Inc. All rights reserved.
+          <p className="text-base text-gray-700 xl:text-center">
+            Sitio web creado por Andres Ortiz +593968044256.
           </p>
+          <p className="text-base text-gray-400 xl:text-center">
+            © 2024 ISCD Inc. All rights reserved.
+          </p>
+          
         </motion.div>
       </div>
     </footer>

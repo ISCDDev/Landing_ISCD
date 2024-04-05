@@ -13,7 +13,7 @@ export function Services() {
   console.log(scrollYProgress);
   return (
     <>
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden z-40">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover filter brightness-100 grayscale opacity-10"
           autoPlay
@@ -49,7 +49,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Expertise
+                    Sobre Nosotros
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
@@ -58,7 +58,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Comprehensive Cybersecurity Solutions
+                    Misión
                   </motion.h2>
                   <motion.p
                     className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
@@ -66,8 +66,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Our team of experts will assess your security risks and
-                    develop a customized plan to protect your data.
+                    Proteger y fortalecer la infraestructura digital de cada organización, ofreciendo soluciones personalizadas, fiables y escalables, que excedan las expectativas de nuestros clientes, promoviendo un desarrollo seguro en la era digital.
                   </motion.p>
                 </div>
               </div>
@@ -99,7 +98,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Servicios
+                    Filosofia
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
@@ -108,7 +107,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Consultoría en Desarrollo Sostenible
+                    Zero Trust
                   </motion.h2>
                   <motion.p
                     className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
@@ -116,11 +115,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Nuestro equipo ofrece consultoría especializada en
-                    desarrollo sostenible, brindando soluciones adaptadas a las
-                    necesidades de tu organización para promover prácticas
-                    comerciales responsables y respetuosas con el medio
-                    ambiente.
+                    Presentamos nuestra filosofía Zero Trust. En un mundo digitalizado y en constante evolución, confiar es un riesgo.
                   </motion.p>
                 </div>
               </div>
@@ -143,16 +138,15 @@ export function Services() {
             >
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
-                  Services
+                  Servicios
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
                 
                 >
-                  Our Services
+                  Nuestros servicios
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We offer a wide range of services to help you secure your
-                  business.
+                De acuerdo a la Alianza de amenazas a la seguridad Pública (PSTA), los ataques más frecuentes en la región en lo que va del año 2023, han sido Ransomware que se refiere al secuestro de datos con un 38.5%, la Red Comprometido con 30.8% y la Filtración de Datos con un 15.4%.
                 </p>
               </div>
             </motion.div>
@@ -166,17 +160,17 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <LockIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Vulnerability Scanning
+                    Consultoria integral en ciberseguridad
                     </h3>
                     <p className="text-sm text-gray-500 leading-none ">
-                      Identify and fix security holes in your network.
+                    Evaluación exhaustiva de la infraestructura digital
                     </p>
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" variant="secondary"
                     
                     >
-                      Learn More
+                      Aprender Mas
                     </Button>
                   </CardContent>
                 </Card>

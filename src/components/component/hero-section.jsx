@@ -1,18 +1,14 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import RandomTextEffect from "@/components/component/random-text";
 import Link from "next/link";
+
 export function HeroSection() {
   return (
-    <div>
+    <>
       <section className="py-48 lg:py-40 xl:py-24 overlay">
         <div className="container px-4 space-y-10 text-center md:space-y-16 lg:space-y-20">
           <div className=" space-y-20">
-            {/* <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl/relaxed lg:text-7xl/relaxed xl:text-5xl/relaxed text-white font-digital-desolation">
-              Information Security Consulting Development
-            </h1> */}
-            
             <RandomTextEffect
               originalText="Information Security Consulting Development"
               className="text-4xl font-extrabold tracking-tighter sm:text-4xl md:text-4xl/relaxed lg:text-5xl/relaxed xl:text-7xl/relaxed text-white font-arimo cursor-pointer"
@@ -44,6 +40,6 @@ export function HeroSection() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

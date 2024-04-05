@@ -18,8 +18,7 @@ export function Sections() {
                 Protegiendo tu negocio
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                ISCD provides comprehensive cybersecurity solutions to protect
-                your organization from the latest threats.
+              Nuestra meta es contribuir a un mundo más seguro y digitalizado, donde las empresas puedan desarrollar su potencial sin temor a los ciberataques.
               </p>
             </div>
           </div>
@@ -153,18 +152,17 @@ export function Sections() {
           id="nosotros"
         >
           <motion.div
-            className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
+            className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6 py-32"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1 }}
           >
-            <div className="space-y-3">
+            <div className="space-y-5 mb-20">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-iscd">
-                Why Choose ISCD?
+                Por que escoger ISCD?
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Our team of cybersecurity experts is dedicated to keeping your
-                data safe.
+              Somos un equipo de profesionales especializados en tecnología que proporciona servicios de ciberseguridad a empresas independientes.
               </p>
             </div>
             <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-4 xl:gap-8">
@@ -175,13 +173,13 @@ export function Sections() {
                     height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/placeholder.svg"
+                    src="/Kendryck.webp"
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Alice Smith</h3>
+                  <h3 className="font-bold tracking-tighter">Kendryck Pavón</h3>
                   <p className="text-xs tracking-wide text-gray-500">
-                    Security Analyst
+                    Analista en Seguridad
                   </p>
                 </div>
               </div>
@@ -192,13 +190,13 @@ export function Sections() {
                     height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/placeholder.svg"
+                    src="/Gabriela.jpg"
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Bob Johnson</h3>
+                  <h3 className="font-bold tracking-tighter">Gabriela Jácome</h3>
                   <p className="text-xs tracking-wide text-gray-500">
-                    Cybersecurity Expert
+                    Experta en Ciberseguridad
                   </p>
                 </div>
               </div>
@@ -213,9 +211,9 @@ export function Sections() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Eve Williams</h3>
+                  <h3 className="font-bold tracking-tighter">Luis Jaramillo</h3>
                   <p className="text-xs tracking-wide text-gray-500 ">
-                    Chief Information Security Officer
+                    Jefe de seguridad
                   </p>
                 </div>
               </div>
@@ -226,20 +224,20 @@ export function Sections() {
                     height={100}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/placeholder.svg"
+                    src="/Andres.webp"
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Charlie Brown</h3>
+                  <h3 className="font-bold tracking-tighter">Andres Ortiz</h3>
                   <p className="text-xs tracking-wide text-gray-500 ">
-                    Security Operations Center Analyst
+                    Experto en Seguridad en la Web
                   </p>
                 </div>
               </div>
             </div>
           </motion.div>
         </section>
-        <section className="w-full py-12 md:py-16 lg:py-24 bg-white text-black">
+        {/* <section className="w-full py-12 md:py-16 lg:py-24 bg-white text-black">
           <motion.div
             className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6"
             initial={{ opacity: 0, y: 100 }}
@@ -318,7 +316,7 @@ export function Sections() {
               </div>
             </div>
           </motion.div>
-        </section>
+        </section> */}
         <section className="w-full py-80" id="contacto">
           <motion.div
             className="container px-4 md:px-6"
@@ -329,14 +327,14 @@ export function Sections() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-gray-800 px-3 py-1 text-sm ">
-                  Contact Us
+                  Contacto
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Ready to get started?
+                  Listo para empezar?
                 </h2>
               </div>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Contact us today to learn more about our services.
+                Contactanos hoy dia y aprender mas sobre nuestros servicios.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 {/* <Link
