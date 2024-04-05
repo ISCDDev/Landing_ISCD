@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'blue-iscd': '#0000f0',
+      },
       fontFamily: {
         'digital-desolation': ['Digital Desolation', 'sans-serif'],
         'space-age': ['Space Age', 'sans-serif'],

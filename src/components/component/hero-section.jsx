@@ -6,7 +6,7 @@ import Link from "next/link";
 export function HeroSection() {
   return (
     <div>
-      <section className="py-34 lg:py-24 xl:py-34 overlay">
+      <section className="py-48 lg:py-40 xl:py-24 overlay">
         <div className="container px-4 space-y-10 text-center md:space-y-16 lg:space-y-20">
           <div className=" space-y-20">
             {/* <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl/relaxed lg:text-7xl/relaxed xl:text-5xl/relaxed text-white font-digital-desolation">
@@ -15,7 +15,7 @@ export function HeroSection() {
             
             <RandomTextEffect
               originalText="Information Security Consulting Development"
-              className="text-xl font-extrabold tracking-tighter sm:text-4xl md:text-4xl/relaxed lg:text-5xl/relaxed xl:text-7xl/relaxed text-white font-arimo cursor-pointer"
+              className="text-4xl font-extrabold tracking-tighter sm:text-4xl md:text-4xl/relaxed lg:text-5xl/relaxed xl:text-7xl/relaxed text-white font-arimo cursor-pointer"
             />
             <motion.p
               className="mx-auto max-w-[800px] md:text-lg lg:text-lg xl:text-lg pb-12 text-gray-300"
@@ -36,7 +36,7 @@ export function HeroSection() {
                 transition={{ duration: 1 }}
               >
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-md font-medium text-white backdrop-blur-3xl font-arimo">
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-md font-medium text-white backdrop-blur-3xl font-extrabold">
                   Empezemos
                 </span>
               </motion.button>

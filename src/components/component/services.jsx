@@ -13,108 +13,121 @@ export function Services() {
   console.log(scrollYProgress);
   return (
     <>
-      <section
-        className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10"
-        id="inicio"
-      >
-        <div className="container space-y-12 px-4 md:px-6">
-          <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
-            <motion.div
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center flex justify-center items-center"
-              style={{ maxWidth: "100%", height: "auto" }}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 2 }}
-            >
-              <Lottie
-                animationData={animacion}
-                style={{ width: "100%", height: "100%" }}
-              />
-            </motion.div>
+      <div className="relative overflow-hidden">
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover filter brightness-100 grayscale opacity-10"
+          autoPlay
+          loop
+          muted
+          playsInline
+          src="/wallpaper2.mp4"
+        ></video>
+        <section
+          className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 z-30"
+          id="inicio"
+        >
+          <div className="container space-y-12 px-4 md:px-6">
+            <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
+              <motion.div
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center flex justify-center items-center"
+                style={{ maxWidth: "100%", height: "auto" }}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 2 }}
+              >
+                <Lottie
+                  animationData={animacion2}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </motion.div>
 
-            <div className="flex flex-col justify-center space-y-4">
-              <div className="space-y-2">
-                <motion.div
-                  className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm "
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
-                >
-                  Expertise
-                </motion.div>
-                <motion.h2
-                  className="text-3xl font-bold tracking-tighter sm:text-5xl"
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
-                >
-                  Comprehensive Cybersecurity Solutions
-                </motion.h2>
-                <motion.p
-                  className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
-                >
-                  Our team of experts will assess your security risks and
-                  develop a customized plan to protect your data.
-                </motion.p>
+              <div className="flex flex-col justify-center space-y-4">
+                <div className="space-y-2">
+                  <motion.div
+                    className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm "
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Expertise
+                  </motion.div>
+                  <motion.h2
+                    className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
+                 
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Comprehensive Cybersecurity Solutions
+                  </motion.h2>
+                  <motion.p
+                    className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Our team of experts will assess your security risks and
+                    develop a customized plan to protect your data.
+                  </motion.p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10">
-        <div className="container flex flex-col items-center px-4">
-          <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
-            <div className="flex items-center justify-center lg:order-last">
-            <motion.div
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center flex justify-center items-center"
-              style={{ maxWidth: "100%", height: "auto" }}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 2 }}
-            >
-              <Lottie
-                animationData={animacion2}
-                style={{ width: "100%", height: "100%" }}
-              />
-            </motion.div>
-            </div>
-            <div className="flex flex-col justify-center space-y-4 lg:order-first xl:ms-20 lg:ms-20">
-              <div className="space-y-2">
+        </section>
+        <section className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10">
+          <div className="container flex flex-col items-center px-4">
+            <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
+              <div className="flex items-center justify-center lg:order-last">
                 <motion.div
-                  className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm"
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
+                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center flex justify-center items-center"
+                  style={{ maxWidth: "100%", height: "auto" }}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 2 }}
                 >
-                  Servicios
+                  <Lottie
+                    animationData={animacion}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </motion.div>
-                <motion.h2
-                  className="text-3xl font-bold tracking-tighter sm:text-5xl"
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
-                >
-                  Consultoría en Desarrollo Sostenible
-                </motion.h2>
-                <motion.p
-                  className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-                  initial={{ opacity: 0, y: 70 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 2.2 }}
-                >
-                  Nuestro equipo ofrece consultoría especializada en desarrollo
-                  sostenible, brindando soluciones adaptadas a las necesidades
-                  de tu organización para promover prácticas comerciales
-                  responsables y respetuosas con el medio ambiente.
-                </motion.p>
+              </div>
+              <div className="flex flex-col justify-center space-y-4 lg:order-first xl:ms-20 lg:ms-20">
+                <div className="space-y-2">
+                  <motion.div
+                    className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm"
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Servicios
+                  </motion.div>
+                  <motion.h2
+                    className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
+
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Consultoría en Desarrollo Sostenible
+                  </motion.h2>
+                  <motion.p
+                    className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                    initial={{ opacity: 0, y: 70 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 2.2 }}
+                  >
+                    Nuestro equipo ofrece consultoría especializada en
+                    desarrollo sostenible, brindando soluciones adaptadas a las
+                    necesidades de tu organización para promover prácticas
+                    comerciales responsables y respetuosas con el medio
+                    ambiente.
+                  </motion.p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <section
         className="w-full pt-12 md:pt-20 lg:pt-20 text-black bg-white pb-40"
@@ -132,7 +145,9 @@ export function Services() {
                 <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
                   Services
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
+                
+                >
                   Our Services
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -158,7 +173,9 @@ export function Services() {
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <Button size="sm" variant="secondary">
+                    <Button size="sm" variant="secondary"
+                    
+                    >
                       Learn More
                     </Button>
                   </CardContent>

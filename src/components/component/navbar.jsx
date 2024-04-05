@@ -36,7 +36,7 @@ export function Navbar() {
       >
         <div className="hidden xxl:flex items-center gap-1.5">
           <Link href="#">
-            <Image src="/Logo2.svg" alt="ISCD" 
+            <Image src="/Logo1.svg" alt="ISCD" 
             height={48}
             width={48}
             />
@@ -62,7 +62,7 @@ export function Navbar() {
             Servicios
           </Link>
           <Link className="flex items-center gap-1.5 " href="#">
-            <Image src="/Logo2.svg" alt="ISCD" 
+            <Image src="/Logo1.svg" alt="ISCD" 
             height={48}
             width={48}
             />
@@ -85,7 +85,7 @@ export function Navbar() {
         <div className="xl:hidden flex items-center justify-between flex-1">
           <div className="flex items-center">
             <Link href="#">
-              <Image src="/Logo2.svg" alt="ISCD" 
+              <Image src="/Logo1.svg" alt="ISCD" 
               height={48}
               width={48}
               />
@@ -133,7 +133,7 @@ export function Navbar() {
         </div>
 
         <motion.button
-          className="button bg-white rounded-full h-8 w-24 text-xs justify-center text-black border xl:block hidden"
+          className="button bg-white rounded-full h-8 w-24 text-base justify-center text-black border xl:block hidden"
           whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
           whileTap={{ scale: 0.9 }}
           initial={{ opacity: 0, y: -50 }}

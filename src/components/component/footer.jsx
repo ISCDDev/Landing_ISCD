@@ -17,7 +17,7 @@ export function Footer() {
               className="h-10"
               height={40}
               width={40}
-              src="/Logo2.svg"
+              src="/Logo1.svg"
              />
 
             <p className="text-gray-500 text-base">
