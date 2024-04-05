@@ -13,7 +13,7 @@ export function Services() {
   console.log(scrollYProgress);
   return (
     <>
-      <div className="relative overflow-hidden z-40">
+      <div className="relative overflow-hidden z-20">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover filter brightness-100 grayscale opacity-10"
           autoPlay
