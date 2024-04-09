@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <>
-      <section className="py-48 lg:py-40 xl:py-24 overlay">
+    <div className="h-screen">
+      <section className="flex justify-center overlay h-full items-center">
         <div className="container px-4 space-y-10 text-center md:space-y-16 lg:space-y-20">
           <div className=" space-y-20">
             <RandomTextEffect
@@ -40,6 +40,6 @@ export function HeroSection() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

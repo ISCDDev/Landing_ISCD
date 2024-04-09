@@ -8,6 +8,9 @@ import { NavbarResponsive } from "@/components/component/navbar-responsive";
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const closeMenu = () => {
+    setIsMenuOpen(false); 
+  };
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -147,7 +150,7 @@ export function Navbar() {
         </motion.button>
       </motion.header>
 
-      {isMenuOpen && !isLargeScreen && <NavbarResponsive isMenuOpen={isMenuOpen} />}
+      {isMenuOpen && !isLargeScreen && <NavbarResponsive isMenuOpen={isMenuOpen} closeMenu={closeMenu} />}
     </>
   );
 }

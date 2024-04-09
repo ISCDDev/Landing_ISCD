@@ -23,7 +23,7 @@ export function Services() {
           src="/wallpaper2.mp4"
         ></video>
         <section
-          className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 z-30"
+          className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 z-30 flex justify-center"
           id="inicio"
         >
           <div className="container space-y-12 px-4 md:px-6">
@@ -73,7 +73,7 @@ export function Services() {
             </div>
           </div>
         </section>
-        <section className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10">
+        <section className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 flex justify-center">
           <div className="container flex flex-col items-center px-4">
             <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
               <div className="flex items-center justify-center lg:order-last">

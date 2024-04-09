@@ -7,7 +7,7 @@ export function Sections() {
     <div className="flex flex-col w-full min-h-screen text-white">
       <main className="flex-1">
         <motion.section
-          className="w-full py-80"
+          className="w-full py-80 flex justify-center"
           initial={{ opacity: 0, scale: 0.4 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.1 }}
@@ -18,12 +18,14 @@ export function Sections() {
                 Protegiendo tu negocio
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-              Nuestra meta es contribuir a un mundo más seguro y digitalizado, donde las empresas puedan desarrollar su potencial sin temor a los ciberataques.
+                Nuestra meta es contribuir a un mundo más seguro y digitalizado,
+                donde las empresas puedan desarrollar su potencial sin temor a
+                los ciberataques.
               </p>
             </div>
           </div>
         </motion.section>
-        <section className="w-full py-40  bg-white text-black">
+        <section className="w-full py-40  bg-white text-black flex justify-center">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6">
             <motion.div
               className="space-y-3"
@@ -148,7 +150,7 @@ export function Sections() {
           </div>
         </section>
         <section
-          className="w-full py-12 md:py-16 lg:py-24 bg-white text-black"
+          className="w-full py-12 md:py-16 lg:py-24 bg-white text-black flex justify-center"
           id="nosotros"
         >
           <motion.div
@@ -162,10 +164,12 @@ export function Sections() {
                 Por que escoger ISCD?
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-              Somos un equipo de profesionales especializados en tecnología que proporciona servicios de ciberseguridad a empresas independientes.
+                Somos un equipo de profesionales especializados en tecnología
+                que proporciona servicios de ciberseguridad a empresas
+                independientes.
               </p>
             </div>
-            <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-4 xl:gap-8">
+            <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-3 xl:gap-8">
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200">
                   <Image
@@ -194,29 +198,15 @@ export function Sections() {
                   />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Gabriela Jácome</h3>
+                  <h3 className="font-bold tracking-tighter">
+                    Gabriela Jácome
+                  </h3>
                   <p className="text-xs tracking-wide text-gray-500">
                     Experta en Ciberseguridad
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center space-y-2">
-                <div className="rounded-full border border-gray-200 ">
-                  <Image
-                    width={100}
-                    height={100}
-                    alt="Team member"
-                    className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/placeholder.svg"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Luis Jaramillo</h3>
-                  <p className="text-xs tracking-wide text-gray-500 ">
-                    Jefe de seguridad
-                  </p>
-                </div>
-              </div>
+
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200 ">
                   <Image
@@ -317,7 +307,7 @@ export function Sections() {
             </div>
           </motion.div>
         </section> */}
-        <section className="w-full py-80" id="contacto">
+        <section className="w-full py-80 flex justify-center" id="contacto">
           <motion.div
             className="container px-4 md:px-6"
             initial={{ opacity: 0, scale: 0.4 }}
@@ -343,14 +333,15 @@ export function Sections() {
                 >
                   Contact Us
                 </Link> */}
-                <motion.button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                <motion.a
+                  href="https://wa.me/593987992614"
+                  className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-sm font-medium text-white backdrop-blur-3xl font-bold"
-                  >
-                    
+                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-sm font-medium text-white backdrop-blur-3xl font-bold">
                     Contactanos
                   </span>
-                </motion.button>
+                </motion.a>
               </div>
             </div>
           </motion.div>
