@@ -184,15 +184,15 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <ShieldCheckIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Penetration Testing
+                    Seguridad Integral
                     </h3>
                     <p className="text-sm text-gray-500 leading-none ">
-                      Test your defenses with simulated cyber attacks.
+                    Implementación de soluciones integrales de seguridad.
                     </p>
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" variant="secondary">
-                      Learn More
+                    Aprender Mas
                     </Button>
                   </CardContent>
                 </Card>
@@ -206,15 +206,15 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <UsersIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Security Awareness Training
+                      Diseño e implementación de TIC'S
                     </h3>
                     <p className="text-sm text-gray-500 leading-none ">
-                      Educate your employees about cyber threats.
+                    Desarrollo e implementación de soluciones tecnológicas personalizadas
                     </p>
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" variant="secondary">
-                      Learn More
+                    Aprender Mas
                     </Button>
                   </CardContent>
                 </Card>
@@ -228,15 +228,15 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <ShieldIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Managed Security Services
+                      Hacking Etico
                     </h3>
                     <p className="text-sm text-gray-500 leading-none ">
-                      Let our experts monitor and protect your systems 24/7.
+                    Identificar y corregir vulnerabilidades (Sombrero blanco/negro).
                     </p>
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" variant="secondary">
-                      Learn More
+                    Aprender Mas
                     </Button>
                   </CardContent>
                 </Card>

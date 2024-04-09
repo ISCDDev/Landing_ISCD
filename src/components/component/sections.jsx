@@ -37,7 +37,7 @@ export function Sections() {
                 Otros Servicios
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                We offer a range of services to meet your cybersecurity needs.
+              Ofrecemos una gama de servicios para satisfacer sus necesidades de ciberseguridad.
               </p>
             </motion.div>
             <motion.div
@@ -52,14 +52,14 @@ export function Sections() {
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
                   height={200}
                   width={200}
-                  src="/placeholder.svg"
+                  src="/capacitacion.jpg"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                    Managed Security
+                  Capacitacion en Ciberseguridad
                   </h3>
                   <p className="text-sm text-gray-500 ">
-                    Let our experts handle your security.
+                  Programas de formación adaptados a las necesidades del cliente.
                   </p>
                 </div>
               </div>
@@ -68,30 +68,13 @@ export function Sections() {
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
                   height={200}
-                  src="/placeholder.svg"
+                  src="/puertos.jpg"
                   width={200}
                 />
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Cloud Security</h3>
+                  <h3 className="font-bold tracking-tighter">Asignación segura de puertos</h3>
                   <p className="text-sm text-gray-500 ">
-                    Protect your data in the cloud.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
-                <Image
-                  width={200}
-                  height={200}
-                  alt="Service"
-                  className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  src="/placeholder.svg"
-                />
-                <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">
-                    Endpoint Security
-                  </h3>
-                  <p className="text-sm text-gray-500 ">
-                    Secure every device in your network.
+                  Prevención de conflictos en cuanto al rendimiento de la red.
                   </p>
                 </div>
               </div>
@@ -101,14 +84,14 @@ export function Sections() {
                   height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  src="/placeholder.svg"
+                  src="/cableado.png"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                    Endpoint Security
+                  Cableado estructurado
                   </h3>
                   <p className="text-sm text-gray-500 ">
-                    Secure every device in your network.
+                  Diseño e implementación de sistemas de cableado organizados y seguros.
                   </p>
                 </div>
               </div>
@@ -118,14 +101,14 @@ export function Sections() {
                   height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  src="/placeholder.svg"
+                  src="/helpdesk.jpg"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                    Endpoint Security
+                    Help Desk
                   </h3>
                   <p className="text-sm text-gray-500 ">
-                    Secure every device in your network.
+                  Soporte técnico remoto y presencial
                   </p>
                 </div>
               </div>
@@ -135,14 +118,31 @@ export function Sections() {
                   height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  src="/placeholder.svg"
+                  src="/pentesting.png"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                    Endpoint Security
+                  Pruebas de Penetración (Pen Testing)
                   </h3>
                   <p className="text-sm text-gray-500 ">
-                    Secure every device in your network.
+                  Evaluación de seguridad simulando ataques reales.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
+                <Image
+                  width={200}
+                  height={200}
+                  alt="Service"
+                  className="rounded-full aspect-square overflow-hidden object-cover object-center"
+                  src="/siem.jpg"
+                />
+                <div className="space-y-2">
+                  <h3 className="font-bold tracking-tighter">
+                  Gestión de Eventos e Incidentes de Seguridad (SIEM)
+                  </h3>
+                  <p className="text-sm text-gray-500 ">
+                  Monitoreo en tiempo real para detectar y responder a eventos de seguridad.
                   </p>
                 </div>
               </div>
