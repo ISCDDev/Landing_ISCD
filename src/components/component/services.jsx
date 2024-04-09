@@ -168,7 +168,10 @@ export function Services() {
                   </CardHeader>
                   <CardContent>
                     <Button size="sm" variant="secondary"
-                    
+                    onClick={() => {
+                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
+                    }
+                    }
                     >
                       Aprender Mas
                     </Button>
@@ -191,7 +194,12 @@ export function Services() {
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <Button size="sm" variant="secondary">
+                    <Button size="sm" variant="secondary"
+                    onClick={() => {
+                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
+                    }
+                    }
+                    >
                     Aprender Mas
                     </Button>
                   </CardContent>
@@ -213,7 +221,12 @@ export function Services() {
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <Button size="sm" variant="secondary">
+                    <Button size="sm" variant="secondary"
+                    onClick={() => {
+                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
+                    }
+                    }
+                    >
                     Aprender Mas
                     </Button>
                   </CardContent>
@@ -235,7 +248,12 @@ export function Services() {
                     </p>
                   </CardHeader>
                   <CardContent>
-                    <Button size="sm" variant="secondary">
+                    <Button size="sm" variant="secondary"
+                    onClick={() => {
+                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
+                    }
+                    }
+                    >
                     Aprender Mas
                     </Button>
                   </CardContent>
