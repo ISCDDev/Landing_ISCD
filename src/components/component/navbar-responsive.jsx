@@ -64,7 +64,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
         <p className="text-2xl font-bold mb-4">Contacto</p>
         <div className="text-sm mb-4">inf.scdev@gmail.com</div>
         <p className="text-2xl font-bold mb-4">Telefono</p>
-        <div className="text-sm mb-6">+593 99 850 9120</div>
+        <div className="text-sm mb-6">+593 98 799 2614</div>
         <div className="flex space-x-4">
           <a href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
           <InstagramIcon className="text-pink-600" />
