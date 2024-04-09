@@ -196,9 +196,7 @@ export function Footer() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <p className="text-base text-gray-700 xl:text-center">
-            Sitio web creado por Andres Ortiz +593968044256.
-          </p>
+        
           <p className="text-base text-gray-400 xl:text-center">
             © 2024 ISCD Inc. All rights reserved.
           </p>
