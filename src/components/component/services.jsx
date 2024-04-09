@@ -206,7 +206,7 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <UsersIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Diseño e implementación de TIC'S
+                      Diseño e implementación de TIC &lsquo;S
                     </h3>
                     <p className="text-sm text-gray-500 leading-none ">
                     Desarrollo e implementación de soluciones tecnológicas personalizadas
