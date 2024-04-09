@@ -324,7 +324,7 @@ export function Sections() {
                 </h2>
               </div>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Contactanos hoy dia y aprender mas sobre nuestros servicios.
+                Contactanos por Whatsapp hoy dia y aprender mas sobre nuestros servicios.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 {/* <Link
