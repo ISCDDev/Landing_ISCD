@@ -173,7 +173,7 @@ export function Services() {
                     }
                     }
                     >
-                      Aprender Mas
+                      Leer Mas
                     </Button>
                   </CardContent>
                 </Card>
@@ -200,7 +200,7 @@ export function Services() {
                     }
                     }
                     >
-                    Aprender Mas
+                    Leer Mas
                     </Button>
                   </CardContent>
                 </Card>
@@ -227,7 +227,7 @@ export function Services() {
                     }
                     }
                     >
-                    Aprender Mas
+                    Leer Mas
                     </Button>
                   </CardContent>
                 </Card>
@@ -254,7 +254,7 @@ export function Services() {
                     }
                     }
                     >
-                    Aprender Mas
+                    Leer Mas
                     </Button>
                   </CardContent>
                 </Card>
