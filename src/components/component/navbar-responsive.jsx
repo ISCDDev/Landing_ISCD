@@ -62,7 +62,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
      
       <div className="flex flex-col items-start">
         <p className="text-2xl font-bold mb-4">Contacto</p>
-        <div className="text-sm mb-4">inf.scdev@gmail.com</div>
+        <div className="text-sm mb-4">iscd.ecu@gmail.com</div>
         <p className="text-2xl font-bold mb-4">Telefono</p>
         <div className="text-sm mb-6">+593 98 799 2614</div>
         <div className="flex space-x-4">
