@@ -176,6 +176,29 @@ export function Footer() {
                   </li> */}
                 </ul>
               </div>
+              <div className="mt-12 md:mt-0">
+                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  Legal
+                </h3>
+                <ul className="mt-4 space-y-4">
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="#"
+                    >
+                      Privacidad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="#"
+                    >
+                      Terminos
+                    </a>
+                  </li>
+                </ul>
+                </div>
               
             </div>
           </div>
