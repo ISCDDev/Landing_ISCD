@@ -13,11 +13,9 @@ export function Services() {
   console.log(scrollYProgress);
   return (
     <>
-      
-
       <section
         className="w-full pt-12 md:pt-20 lg:pt-20 text-black bg-white pb-40"
-        id="servicios"
+        id="inicio"
       >
         <div className="container space-y-12 px-4 md:px-6">
           <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
@@ -31,13 +29,13 @@ export function Services() {
                 <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
                   Conocenos
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
-                
-                >
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd">
                   Sobre Nosotros
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                ISCD (Information Security Consulting Development) nace en 2022 con la visión de llenar un vacío en el mercado ecuatoriano de ciberseguridad. 
+                  ISCD (Information Security Consulting Development) nace en
+                  2022 con la visión de llenar un vacío en el mercado
+                  ecuatoriano de ciberseguridad.
                 </p>
               </div>
             </motion.div>
@@ -51,15 +49,17 @@ export function Services() {
                   <CardHeader className="flex flex-col">
                     <LockIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                    Mision
+                      Mision
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
-                    Proteger y fortalecer la infraestructura digital de cada organización, ofreciendo soluciones personalizadas, fiables y escalables, que excedan las expectativas de nuestros clientes, promoviendo un desarrollo seguro en la era digital.
+                      Proteger y fortalecer la infraestructura digital de cada
+                      organización, ofreciendo soluciones personalizadas,
+                      fiables y escalables, que excedan las expectativas de
+                      nuestros clientes, promoviendo un desarrollo seguro en la
+                      era digital.
                     </p>
                   </CardHeader>
-                  <CardContent>
-                    
-                  </CardContent>
+                  <CardContent></CardContent>
                 </Card>
               </motion.div>
               <motion.div
@@ -71,15 +71,13 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <ShieldCheckIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                    Vision
+                      Vision
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
-                    Ser líderes en el ámbito de la ciberseguridad del Ecuador.
+                      Ser líderes en el ámbito de la ciberseguridad del Ecuador.
                     </p>
                   </CardHeader>
-                  <CardContent>
-                    
-                  </CardContent>
+                  <CardContent></CardContent>
                 </Card>
               </motion.div>
               <motion.div
@@ -93,21 +91,17 @@ export function Services() {
                     <h3 className="text-lg font-bold tracking-tighter">
                       Valores
                     </h3>
-               
-                    <ul className="list-disc text-sm text-gray-500 leading-relaxed ms-5"> 
-      <li>Honestidad</li>
-      <li>Profesionalismo</li>
-      <li>Conocimiento</li>
-      <li>Productividad</li>
-    </ul>
-                 
+
+                    <ul className="list-disc text-sm text-gray-500 leading-relaxed ms-5">
+                      <li>Honestidad</li>
+                      <li>Profesionalismo</li>
+                      <li>Conocimiento</li>
+                      <li>Productividad</li>
+                    </ul>
                   </CardHeader>
-                  <CardContent>
-                    
-                  </CardContent>
+                  <CardContent></CardContent>
                 </Card>
               </motion.div>
-              
             </div>
           </div>
         </div>
@@ -123,7 +117,7 @@ export function Services() {
         ></video>
         <section
           className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 z-30 flex justify-center"
-          id="inicio"
+          id="servicios"
         >
           <div className="container space-y-12 px-4 md:px-6">
             <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
@@ -152,7 +146,6 @@ export function Services() {
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
-                 
                     initial={{ opacity: 0, y: 70 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
@@ -165,7 +158,8 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Presentamos nuestra filosofía Zero Trust. En un mundo digitalizado y en constante evolución, confiar es un riesgo.
+                    Presentamos nuestra filosofía Zero Trust. En un mundo
+                    digitalizado y en constante evolución, confiar es un riesgo.
                   </motion.p>
                 </div>
               </div>
@@ -201,7 +195,6 @@ export function Services() {
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
-
                     initial={{ opacity: 0, y: 70 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
@@ -214,9 +207,9 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Es un enfoque de seguridad que no asume confianza
-en nadie, y verifica cada solicitud antes de permitir el
-acceso a la red o a los datos.
+                    Es un enfoque de seguridad que no asume confianza en nadie,
+                    y verifica cada solicitud antes de permitir el acceso a la
+                    red o a los datos.
                   </motion.p>
                 </div>
               </div>
