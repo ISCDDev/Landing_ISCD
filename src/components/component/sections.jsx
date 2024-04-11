@@ -15,7 +15,7 @@ export function Sections() {
           <div className="container flex flex-col items-center justify-center space-y-4 px-4 text-center md:space-y-10 md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Protegiendo tu negocio
+              Tu seguridad, nuestra prioridad
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                 Nuestra meta es contribuir a un mundo más seguro y digitalizado,
@@ -34,7 +34,7 @@ export function Sections() {
               transition={{ duration: 1.1 }}
             >
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-iscd">
-                Otros Servicios
+                Servicios
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
               Ofrecemos una gama de servicios para satisfacer sus necesidades de ciberseguridad.
@@ -161,20 +161,19 @@ export function Sections() {
           >
             <div className="space-y-5 mb-20">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-blue-iscd">
-                Por que escoger ISCD?
+                Nuestro Equipo
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Somos un equipo de profesionales especializados en tecnología
-                que proporciona servicios de ciberseguridad a empresas
-                independientes.
+              Profesionales de la ciberseguridad es nuestra garantía para un trabajo de ​calidad, contamos con experiencia profesional y la motivación para formar ​parte de tu equipo
               </p>
+              <p className=" font-bold">Unidos, sumamos más de 15 años de experiencia profesional</p>
             </div>
             <div className="grid max-w-sm mx-auto gap-4 md:grid-cols-2 lg:max-w-none lg:grid-cols-3 xl:gap-8">
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200">
                   <Image
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
                     src="/Kendryck.webp"
@@ -190,8 +189,8 @@ export function Sections() {
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200">
                   <Image
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
                     src="/Gabriela.jpg"
@@ -210,8 +209,8 @@ export function Sections() {
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div className="rounded-full border border-gray-200 ">
                   <Image
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
                     src="/Andres.webp"
@@ -320,7 +319,7 @@ export function Sections() {
                   Contacto
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Listo para empezar?
+                ¡TU NUEVO ALIADO!
                 </h2>
               </div>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
@@ -339,7 +338,7 @@ export function Sections() {
                 >
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-1 text-sm font-medium text-white backdrop-blur-3xl font-bold">
-                    Contactanos
+                  ¡Contáctanos!
                   </span>
                 </motion.a>
               </div>

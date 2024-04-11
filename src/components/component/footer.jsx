@@ -19,10 +19,30 @@ export function Footer() {
               width={40}
               src="/Logo1.svg"
              />
-
-            <p className="text-gray-500 text-base">
-              Tu seguridad, nuestra prioridad
-            </p>
+<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  Contactos
+                </h3>
+                <ul className="mt-4 space-y-4">
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="#"
+                    >
+                      +593 98 799 2614
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="#"
+                    >
+                      iscd.ecu@gmail.com
+                    </a>
+                  </li>
+                 
+                 
+                </ul>
+          
             <div className="flex space-x-6">
               <a className="text-gray-400 hover:text-gray-300" href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
                 <InstagramIcon className="h-6 w-6" />

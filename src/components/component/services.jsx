@@ -13,6 +13,105 @@ export function Services() {
   console.log(scrollYProgress);
   return (
     <>
+      
+
+      <section
+        className="w-full pt-12 md:pt-20 lg:pt-20 text-black bg-white pb-40"
+        id="servicios"
+      >
+        <div className="container space-y-12 px-4 md:px-6">
+          <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
+            <motion.div
+              className="flex flex-col justify-center space-y-4"
+              initial={{ opacity: 0, x: -200 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1.5 }}
+            >
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
+                  Conocenos
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
+                
+                >
+                  Sobre Nosotros
+                </h2>
+                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                ISCD (Information Security Consulting Development) nace en 2022 con la visión de llenar un vacío en el mercado ecuatoriano de ciberseguridad. 
+                </p>
+              </div>
+            </motion.div>
+            <div className="grid gap-4 md:gap-8 mt-10">
+              <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+              >
+                <Card>
+                  <CardHeader className="flex flex-col">
+                    <LockIcon className="w-8 h-8" />
+                    <h3 className="text-lg font-bold tracking-tighter">
+                    Mision
+                    </h3>
+                    <p className="text-sm text-gray-500 leading-relaxed">
+                    Proteger y fortalecer la infraestructura digital de cada organización, ofreciendo soluciones personalizadas, fiables y escalables, que excedan las expectativas de nuestros clientes, promoviendo un desarrollo seguro en la era digital.
+                    </p>
+                  </CardHeader>
+                  <CardContent>
+                    
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+              >
+                <Card>
+                  <CardHeader className="flex flex-col gap-1">
+                    <ShieldCheckIcon className="w-8 h-8" />
+                    <h3 className="text-lg font-bold tracking-tighter">
+                    Vision
+                    </h3>
+                    <p className="text-sm text-gray-500 leading-relaxed">
+                    Ser líderes en el ámbito de la ciberseguridad del Ecuador.
+                    </p>
+                  </CardHeader>
+                  <CardContent>
+                    
+                  </CardContent>
+                </Card>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+              >
+                <Card>
+                  <CardHeader className="flex flex-col gap-1">
+                    <UsersIcon className="w-8 h-8" />
+                    <h3 className="text-lg font-bold tracking-tighter">
+                      Valores
+                    </h3>
+               
+                    <ul className="list-disc text-sm text-gray-500 leading-relaxed ms-5"> 
+      <li>Honestidad</li>
+      <li>Profesionalismo</li>
+      <li>Conocimiento</li>
+      <li>Productividad</li>
+    </ul>
+                 
+                  </CardHeader>
+                  <CardContent>
+                    
+                  </CardContent>
+                </Card>
+              </motion.div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="relative overflow-hidden z-20">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover filter brightness-100 grayscale opacity-10"
@@ -49,7 +148,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Sobre Nosotros
+                    Filosofia
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
@@ -58,7 +157,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Misión
+                    Zero Trust
                   </motion.h2>
                   <motion.p
                     className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
@@ -66,7 +165,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Proteger y fortalecer la infraestructura digital de cada organización, ofreciendo soluciones personalizadas, fiables y escalables, que excedan las expectativas de nuestros clientes, promoviendo un desarrollo seguro en la era digital.
+                    Presentamos nuestra filosofía Zero Trust. En un mundo digitalizado y en constante evolución, confiar es un riesgo.
                   </motion.p>
                 </div>
               </div>
@@ -107,7 +206,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Zero Trust
+                    ¿Qué es?
                   </motion.h2>
                   <motion.p
                     className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
@@ -115,7 +214,9 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Presentamos nuestra filosofía Zero Trust. En un mundo digitalizado y en constante evolución, confiar es un riesgo.
+                    Es un enfoque de seguridad que no asume confianza
+en nadie, y verifica cada solicitud antes de permitir el
+acceso a la red o a los datos.
                   </motion.p>
                 </div>
               </div>
@@ -123,146 +224,6 @@ export function Services() {
           </div>
         </section>
       </div>
-
-      <section
-        className="w-full pt-12 md:pt-20 lg:pt-20 text-black bg-white pb-40"
-        id="servicios"
-      >
-        <div className="container space-y-12 px-4 md:px-6">
-          <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
-            <motion.div
-              className="flex flex-col justify-center space-y-4"
-              initial={{ opacity: 0, x: -200 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1.5 }}
-            >
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
-                  Servicios
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
-                
-                >
-                  Nuestros servicios
-                </h2>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                De acuerdo a la Alianza de amenazas a la seguridad Pública (PSTA), los ataques más frecuentes en la región en lo que va del año 2023, han sido Ransomware que se refiere al secuestro de datos con un 38.5%, la Red Comprometido con 30.8% y la Filtración de Datos con un 15.4%.
-                </p>
-              </div>
-            </motion.div>
-            <div className="grid gap-4 md:gap-8 mt-10">
-              <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-              >
-                <Card>
-                  <CardHeader className="flex flex-col gap-1">
-                    <LockIcon className="w-8 h-8" />
-                    <h3 className="text-lg font-bold tracking-tighter">
-                    Consultoria integral en ciberseguridad
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-none ">
-                    Evaluación exhaustiva de la infraestructura digital
-                    </p>
-                  </CardHeader>
-                  <CardContent>
-                    <Button size="sm" variant="secondary"
-                    onClick={() => {
-                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
-                    }
-                    }
-                    >
-                      Leer Mas
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-              >
-                <Card>
-                  <CardHeader className="flex flex-col gap-1">
-                    <ShieldCheckIcon className="w-8 h-8" />
-                    <h3 className="text-lg font-bold tracking-tighter">
-                    Seguridad Integral
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-none ">
-                    Implementación de soluciones integrales de seguridad.
-                    </p>
-                  </CardHeader>
-                  <CardContent>
-                    <Button size="sm" variant="secondary"
-                    onClick={() => {
-                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
-                    }
-                    }
-                    >
-                    Leer Mas
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-              >
-                <Card>
-                  <CardHeader className="flex flex-col gap-1">
-                    <UsersIcon className="w-8 h-8" />
-                    <h3 className="text-lg font-bold tracking-tighter">
-                      Diseño e implementación de TIC &lsquo;S
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-none ">
-                    Desarrollo e implementación de soluciones tecnológicas personalizadas
-                    </p>
-                  </CardHeader>
-                  <CardContent>
-                    <Button size="sm" variant="secondary"
-                    onClick={() => {
-                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
-                    }
-                    }
-                    >
-                    Leer Mas
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-              >
-                <Card>
-                  <CardHeader className="flex flex-col gap-1">
-                    <ShieldIcon className="w-8 h-8" />
-                    <h3 className="text-lg font-bold tracking-tighter">
-                      Hacking Etico
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-none ">
-                    Identificar y corregir vulnerabilidades (Sombrero blanco/negro).
-                    </p>
-                  </CardHeader>
-                  <CardContent>
-                    <Button size="sm" variant="secondary"
-                    onClick={() => {
-                      window.location.href = "https://thaplicativo.my.canva.site/iscd-portafolio";
-                    }
-                    }
-                    >
-                    Leer Mas
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "ISCD - Empresa Ecuatoriana de Ciberseguridad",
-  description: "ISCD, Somos una comunidad de especialistas tecnológicos dedicados a fortalecer la seguridad cibernética de nuestros clientes desde sus elementos clave.",
+  description:
+    "ISCD, Somos una comunidad de especialistas tecnológicos dedicados a fortalecer la seguridad cibernética de nuestros clientes desde sus elementos clave.",
   metadataBase: new URL("https://landingiscd.vercel.app/"),
 };
 
