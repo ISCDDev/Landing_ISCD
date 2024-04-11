@@ -65,72 +65,72 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://wa.link/8myb6x"
                     >
-                      Analytics
+                      Consultoria de Ciberseguridad
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://wa.link/t8lu74"
                     >
-                      Security
+                      Seguridad Integral
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://wa.link/z8n6ym"
                     >
-                      E-commerce
+                      Help Desk
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://wa.link/n8qt4i"
                     >
-                      Content
+                      Hacking Etico
                     </a>
                   </li>
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Soporte
+                  Mas Informacion
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="mailto:iscd.ecu@gmail.com"
                     >
-                      Pricing
+                      Correo
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
                     >
-                      Documentation
+                      Instagram
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://www.facebook.com/iscd.ecu?mibextid=JRoKGi"
                     >
-                      Guides
+                      Facebook
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://www.tiktok.com/@iscd.ecu?_t=8kz3A35bFjR&_r=1"
                     >
-                      API Status
+                      Tiktok
                     </a>
                   </li>
                 </ul>
@@ -145,12 +145,12 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="#"
+                      href="https://thaplicativo.my.canva.site/iscd-portafolio"
                     >
-                      About
+                      Portafolio
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
                       href="#"
@@ -173,40 +173,10 @@ export function Footer() {
                     >
                       Press
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Legal
-                </h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      Claim
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      Privacy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      Terms
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </motion.div>
