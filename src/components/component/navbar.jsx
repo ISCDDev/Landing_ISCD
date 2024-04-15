@@ -146,7 +146,7 @@ export function Navbar() {
             window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
           }}
         >
-          Unete
+          Únete
         </motion.button>
       </motion.header>
 

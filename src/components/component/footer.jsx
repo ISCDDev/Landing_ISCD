@@ -67,7 +67,7 @@ export function Footer() {
                       className="text-base text-gray-300 hover:text-white"
                       href="https://wa.link/8myb6x"
                     >
-                      Consultoria de Ciberseguridad
+                      Consultoría de Ciberseguridad
                     </a>
                   </li>
                   <li>
@@ -194,7 +194,7 @@ export function Footer() {
                       className="text-base text-gray-300 hover:text-white"
                       href="#"
                     >
-                      Terminos
+                      Términos
                     </a>
                   </li>
                 </ul>

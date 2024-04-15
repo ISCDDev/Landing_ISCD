@@ -27,7 +27,7 @@ export function Services() {
             >
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-gray-200 px-3 py-1 text-sm ">
-                  Conocenos
+                Conócenos
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd">
                   Sobre Nosotros
@@ -49,7 +49,7 @@ export function Services() {
                   <CardHeader className="flex flex-col">
                     <LockIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Mision
+                    Misión
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
                       Proteger y fortalecer la infraestructura digital de cada
@@ -71,7 +71,7 @@ export function Services() {
                   <CardHeader className="flex flex-col gap-1">
                     <ShieldCheckIcon className="w-8 h-8" />
                     <h3 className="text-lg font-bold tracking-tighter">
-                      Vision
+                    Visión
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
                       Ser líderes en el ámbito de la ciberseguridad del Ecuador.
@@ -142,7 +142,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Filosofia
+                    Filosofía
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"
@@ -191,7 +191,7 @@ export function Services() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 2.2 }}
                   >
-                    Filosofia
+                    Filosofía
                   </motion.div>
                   <motion.h2
                     className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd"

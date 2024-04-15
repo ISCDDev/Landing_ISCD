@@ -56,7 +56,7 @@ export function Sections() {
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                  Capacitacion en Ciberseguridad
+                  Capacitación en Ciberseguridad
                   </h3>
                   <p className="text-sm text-gray-500 ">
                   Programas de formación adaptados a las necesidades del cliente.
@@ -323,7 +323,7 @@ export function Sections() {
                 </h2>
               </div>
               <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
-                Contactanos por Whatsapp hoy dia y aprender mas sobre nuestros servicios.
+              Contáctanos por Whatsapp hoy día y aprender mas sobre nuestros servicios.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 {/* <Link
