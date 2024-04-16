@@ -75,7 +75,7 @@ export function Navbar() {
             className="flex items-center gap-1.5 linkeffect"
             href="#nosotros"
           >
-            Equipo
+            Nosotros
           </Link>
           <Link
             className="flex items-center gap-1.5 linkeffect"
@@ -146,7 +146,7 @@ export function Navbar() {
             window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
           }}
         >
-          Únete
+         ¡Únete!
         </motion.button>
       </motion.header>
 

@@ -45,7 +45,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
           initial={{ opacity: 0, y: 100}}
           whileInView={{ opacity: 1, y: 0}}
           transition={{ duration: 1.8 }}
-          >Equipo</motion.p>
+          >Nosotros</motion.p>
         </Link>
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
@@ -69,7 +69,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
             window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
           }}
         >
-          Únete
+          ¡Únete!
       </motion.button>
       <div className="flex flex-col items-start">
         <p className="text-2xl font-bold mb-4">Contacto</p>
