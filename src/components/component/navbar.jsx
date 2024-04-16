@@ -75,7 +75,7 @@ export function Navbar() {
             className="flex items-center gap-1.5 linkeffect"
             href="#nosotros"
           >
-            Nosotros
+            Equipo
           </Link>
           <Link
             className="flex items-center gap-1.5 linkeffect"

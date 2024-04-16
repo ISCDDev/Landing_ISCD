@@ -181,9 +181,7 @@ export function Sections() {
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">Kendryck Pavón</h3>
-                  <p className="text-xs tracking-wide text-gray-500">
-                    Analista en Seguridad
-                  </p>
+                  
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
@@ -200,9 +198,7 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                     Gabriela Jácome
                   </h3>
-                  <p className="text-xs tracking-wide text-gray-500">
-                    Experta en Ciberseguridad
-                  </p>
+                 
                 </div>
               </div>
 
@@ -218,9 +214,7 @@ export function Sections() {
                 </div>
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">Andres Ortiz</h3>
-                  <p className="text-xs tracking-wide text-gray-500 ">
-                    Experto en Seguridad en la Web
-                  </p>
+                  
                 </div>
               </div>
             </div>

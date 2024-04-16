@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image'
+import Image from "next/image";
 import { motion } from "framer-motion";
 export function Footer() {
   return (
@@ -12,42 +12,46 @@ export function Footer() {
           transition={{ duration: 1.1 }}
         >
           <div className="space-y-8 xl:col-span-1">
-          <Image
+            <Image
               alt="ISCD Hexagon Logo"
               className="h-10"
               height={40}
               width={40}
               src="/Logo1.svg"
-             />
-<h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Contactos
-                </h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      +593 98 799 2614
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      iscd.ecu@gmail.com
-                    </a>
-                  </li>
-                 
-                 
-                </ul>
-          
+            />
+            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+              Contactos
+            </h3>
+            <ul className="mt-4 space-y-4">
+              <li>
+                <a
+                  className="text-base text-gray-300 hover:text-white"
+                  href="#"
+                >
+                  +593 98 799 2614
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-base text-gray-300 hover:text-white"
+                  href="#"
+                >
+                  iscd.ecu@gmail.com
+                </a>
+              </li>
+            </ul>
+
             <div className="flex space-x-6">
-              <a className="text-gray-400 hover:text-gray-300" href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
+              <a
+                className="text-gray-400 hover:text-gray-300"
+                href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+              >
                 <InstagramIcon className="h-6 w-6" />
               </a>
-              <a className="text-gray-400 hover:text-gray-300" href="https://www.facebook.com/iscd.ecu?mibextid=JRoKGi">
+              <a
+                className="text-gray-400 hover:text-gray-300"
+                href="https://www.facebook.com/iscd.ecu?mibextid=JRoKGi"
+              >
                 <FacebookIcon className="h-6 w-6" />
               </a>
               <a className="text-gray-400 hover:text-gray-300" href="#">
@@ -176,30 +180,7 @@ export function Footer() {
                   </li> */}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Legal
-                </h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      Privacidad
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-base text-gray-300 hover:text-white"
-                      href="#"
-                    >
-                      Términos
-                    </a>
-                  </li>
-                </ul>
-                </div>
-              
+             
             </div>
           </div>
         </motion.div>
@@ -209,11 +190,9 @@ export function Footer() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-        
           <p className="text-base text-gray-400 xl:text-center">
             © 2024 ISCD Inc. All rights reserved.
           </p>
-          
         </motion.div>
       </div>
     </footer>
