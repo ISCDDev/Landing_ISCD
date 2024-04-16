@@ -33,9 +33,7 @@ export function Services() {
                   Sobre Nosotros
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  ISCD (Information Security Consulting Development) nace en
-                  2022 con la visión de llenar un vacío en el mercado
-                  ecuatoriano de ciberseguridad.
+                Somos ISCD, una empresa fundada en 2022 por un grupo de especialistas tecnológicos. Nuestra misión es identificar y fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador. Ofrecemos soluciones integrales de ciberseguridad, mediante servicios profesionales de hacking ético, consultoría de infraestructura tecnológica y port assignment personalizado. Hemos trabajado con empresas de diferentes sectores, protegiendo sus sistemas y datos de posibles ataques cibernéticos. Así, mejoramos su rendimiento, eficiencia y confianza.
                 </p>
               </div>
             </motion.div>
