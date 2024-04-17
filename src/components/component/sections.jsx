@@ -61,7 +61,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500 pb-5 ">
                   Programas de formación adaptados a las necesidades del cliente.
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/hxy9mf" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -77,7 +77,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500 pb-5 ">
                   Prevención de conflictos en cuanto al rendimiento de la red.
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/3qkdmf" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -95,7 +95,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500  pb-5">
                   Diseño e implementación de sistemas de cableado organizados y seguros.
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/1oayqq" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -113,7 +113,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500  pb-5">
                   Soporte técnico remoto y presencial
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/z8n6ym" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -131,7 +131,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500 pb-5">
                   Evaluación de seguridad simulando ataques reales.
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/n8qt4i" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -149,7 +149,7 @@ export function Sections() {
                   <p className="text-sm text-gray-500 pb-5 ">
                   Monitoreo en tiempo real para detectar y responder a eventos de seguridad.
                   </p>
-                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/5072h3" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
             </motion.div>
