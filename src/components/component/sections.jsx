@@ -215,7 +215,7 @@ export function Sections() {
                     height={200}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/Andres.webp"
+                    src="/Andres.png"
                   />
                 </div>
                 <div className="space-y-2">
