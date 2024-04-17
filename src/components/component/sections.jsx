@@ -58,9 +58,10 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                   Capacitación en Ciberseguridad
                   </h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500 pb-5 ">
                   Programas de formación adaptados a las necesidades del cliente.
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -73,9 +74,10 @@ export function Sections() {
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">Asignación segura de puertos</h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500 pb-5 ">
                   Prevención de conflictos en cuanto al rendimiento de la red.
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -90,9 +92,10 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                   Cableado estructurado
                   </h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500  pb-5">
                   Diseño e implementación de sistemas de cableado organizados y seguros.
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -107,9 +110,10 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                     Help Desk
                   </h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500  pb-5">
                   Soporte técnico remoto y presencial
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -124,9 +128,10 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                   Pruebas de Penetración (Pen Testing)
                   </h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500 pb-5">
                   Evaluación de seguridad simulando ataques reales.
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -141,9 +146,10 @@ export function Sections() {
                   <h3 className="font-bold tracking-tighter">
                   Gestión de Eventos e Incidentes de Seguridad (SIEM)
                   </h3>
-                  <p className="text-sm text-gray-500 ">
+                  <p className="text-sm text-gray-500 pb-5 ">
                   Monitoreo en tiempo real para detectar y responder a eventos de seguridad.
                   </p>
+                  <a href="https://wa.link/ic21kp" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
             </motion.div>
