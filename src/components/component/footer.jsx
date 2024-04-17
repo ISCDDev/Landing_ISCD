@@ -36,7 +36,7 @@ export function Footer() {
                   className="text-base text-gray-300 hover:text-white"
                   href="#"
                 >
-                  iscd.ecu@gmail.com
+                  inf.scdev@iscd.tech
                 </a>
               </li>
             </ul>
@@ -108,7 +108,7 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="mailto:iscd.ecu@gmail.com"
+                      href="mailto:inf.scdev@iscd.tech"
                     >
                       Correo
                     </a>

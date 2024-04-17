@@ -32,7 +32,7 @@ export function Services() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-blue-iscd">
                   Sobre Nosotros
                 </h2>
-                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-base/relaxed">
                 Somos ISCD, una empresa fundada en 2022 por un grupo de especialistas tecnológicos. Nuestra misión es identificar y fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador. Ofrecemos soluciones integrales de ciberseguridad, mediante servicios profesionales de hacking ético, consultoría de infraestructura tecnológica y port assignment personalizado. Hemos trabajado con empresas de diferentes sectores, protegiendo sus sistemas y datos de posibles ataques cibernéticos. Así, mejoramos su rendimiento, eficiencia y confianza.
                 </p>
               </div>
