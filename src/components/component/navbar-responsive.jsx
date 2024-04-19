@@ -15,37 +15,37 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
       <div className="flex flex-col items-start space-y-6 pt-28">
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
-          href="#inicio"
-          onClick={closeMenu} 
-        >
-          <motion.p
-          initial={{ opacity: 0, y: 100}}
-          whileInView={{ opacity: 1, y: 0}}
-          transition={{ duration: 1 }}
-          >Inicio</motion.p>
-         
-        </Link>
-        <Link
-          className="text-3xl font-bold hover:underline underline-offset-4"
           href="#nosotros"
           onClick={closeMenu} 
         >
           <motion.p
           initial={{ opacity: 0, y: 100}}
           whileInView={{ opacity: 1, y: 0}}
-          transition={{ duration: 1.4 }}
+          transition={{ duration: 1 }}
           >Nosotros</motion.p>
+         
         </Link>
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
           href="#servicios"
           onClick={closeMenu} 
         >
+          <motion.p
+          initial={{ opacity: 0, y: 100}}
+          whileInView={{ opacity: 1, y: 0}}
+          transition={{ duration: 1.4 }}
+          >Servicios</motion.p>
+        </Link>
+        <Link
+          className="text-3xl font-bold hover:underline underline-offset-4"
+          href="#equipo"
+          onClick={closeMenu} 
+        >
            <motion.p
           initial={{ opacity: 0, y: 100}}
           whileInView={{ opacity: 1, y: 0}}
           transition={{ duration: 1.8 }}
-          >Servicios</motion.p>
+          >Equipo</motion.p>
         </Link>
         
         <Link

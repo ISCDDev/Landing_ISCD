@@ -55,21 +55,8 @@ export function Navbar() {
             className="flex items-center gap-1.5 hover:underline underline-offset-4"
             href="#"
           ></Link>
-          <Link className="flex items-center gap-1.5 linkeffect" href="#inicio">
-            Inicio
-          </Link>
-          <Link
-            className="flex items-center gap-1.5 linkeffect"
-            href="#nosotros"
-          >
+          <Link className="flex items-center gap-1.5 linkeffect" href="#nosotros">
             Nosotros
-          </Link>
-          <Link className="flex items-center gap-1.5 " href="#">
-            <Image src="/Logo1.svg" alt="ISCD" 
-            height={48}
-            width={48}
-            />
-            <p className="text-white text-xl font-arimo">ISCD</p>
           </Link>
           <Link
             className="flex items-center gap-1.5 linkeffect"
@@ -77,9 +64,22 @@ export function Navbar() {
           >
             Servicios
           </Link>
-        {/* <Link className="flex items-center gap-1.5 linkeffect" href="#contacto">
-            Equipo
+          <Link className="flex items-center gap-1.5 " href="#inicio">
+            <Image src="/Logo1.svg" alt="ISCD" 
+            height={48}
+            width={48}
+            />
+            <p className="text-white text-xl font-arimo">ISCD</p>
+          </Link>
+          {/* <Link
+            className="flex items-center gap-1.5 linkeffect"
+            href="#servicios"
+          >
+            Servicios
           </Link> */}
+        <Link className="flex items-center gap-1.5 linkeffect" href="#equipo">
+            Equipo &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </Link>
 
 
           <Link
