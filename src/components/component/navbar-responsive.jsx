@@ -27,26 +27,27 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
         </Link>
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
-          href="#servicios"
+          href="#nosotros"
           onClick={closeMenu} 
         >
           <motion.p
           initial={{ opacity: 0, y: 100}}
           whileInView={{ opacity: 1, y: 0}}
           transition={{ duration: 1.4 }}
-          >Servicios</motion.p>
+          >Nosotros</motion.p>
         </Link>
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
-          href="#nosotros"
+          href="#servicios"
           onClick={closeMenu} 
         >
            <motion.p
           initial={{ opacity: 0, y: 100}}
           whileInView={{ opacity: 1, y: 0}}
           transition={{ duration: 1.8 }}
-          >Nosotros</motion.p>
+          >Servicios</motion.p>
         </Link>
+        
         <Link
           className="text-3xl font-bold hover:underline underline-offset-4"
           href="#contacto"
@@ -73,9 +74,18 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
       </motion.button>
       <div className="flex flex-col items-start">
         <p className="text-2xl font-bold mb-4">Contacto</p>
-        <div className="text-sm mb-4">inf.scdev@iscd.tech</div>
-        <p className="text-2xl font-bold mb-4">Telefono</p>
-        <div className="text-sm mb-6">+593 98 799 2614</div>
+        <div className="text-sm mb-4">
+          <a href="mailto:iscd.ecu@iscd.tech">
+          iscd.ecu@iscd.tech
+          </a>
+          </div>
+        <p className="text-2xl font-bold mb-4">Teléfono</p>
+        <div className="text-sm mb-6">
+        <a href="https://wa.link/ic21kp">
+          +593 98 799 2614
+          </a>
+          </div>
+          
         <div className="flex space-x-4">
           <a href="https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
           <InstagramIcon className="text-pink-600" />
@@ -83,7 +93,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
           <a href="https://www.facebook.com/iscd.ecu?mibextid=JRoKGi">
           <FacebookIcon className="text-blue-700" />
           </a>
-          <a href="">
+          <a href="http://www.linkedin.com/in/iscd-ecu-9bab942bb">
           <LinkedinIcon className="text-blue-600" />
           </a>
 

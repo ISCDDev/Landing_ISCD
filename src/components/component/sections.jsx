@@ -25,7 +25,7 @@ export function Sections() {
             </div>
           </div>
         </motion.section>
-        <section className="w-full py-40  bg-white text-black flex justify-center">
+        <section className="w-full py-40  bg-white text-black flex justify-center" id="servicios">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6">
             <motion.div
               className="space-y-3"
@@ -56,12 +56,12 @@ export function Sections() {
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                  Capacitación en Ciberseguridad
+                  Consultoria integral de ciberseguridad
                   </h3>
                   <p className="text-sm text-gray-500 pb-5 ">
-                  Programas de formación adaptados a las necesidades del cliente.
+                  Protección efectiva contra amenazas cibernéticas.
                   </p>
-                  <a href="https://wa.link/hxy9mf" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/8myb6x" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -73,9 +73,10 @@ export function Sections() {
                   width={200}
                 />
                 <div className="space-y-2">
-                  <h3 className="font-bold tracking-tighter">Asignación segura de puertos</h3>
+                  <h3 className="font-bold tracking-tighter">Port assignment & document
+                  </h3>
                   <p className="text-sm text-gray-500 pb-5 ">
-                  Prevención de conflictos en cuanto al rendimiento de la red.
+                  Asignación segura de puertos y documentación detallada de la infraestructura de red
                   </p>
                   <a href="https://wa.link/3qkdmf" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
@@ -86,16 +87,16 @@ export function Sections() {
                   height={200}
                   alt="Service"
                   className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                  src="/cableado.png"
+                  src="/seguridadintegral.jpg"
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                  Cableado estructurado
+                  Seguridad Integral
                   </h3>
                   <p className="text-sm text-gray-500  pb-5">
-                  Diseño e implementación de sistemas de cableado organizados y seguros.
+                  Implementación de soluciones integrales de seguridad.
                   </p>
-                  <a href="https://wa.link/1oayqq" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
+                  <a href="https://wa.link/t8lu74" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200 rounded-xl p-4 hover:shadow-lg transition-transform md:translate-y-2 md:scale-105 md:space-y-4 ">
@@ -126,10 +127,10 @@ export function Sections() {
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                  Pruebas de Penetración (Pen Testing)
+                  Hacking ético/Análisis de vulnerabilidades
                   </h3>
                   <p className="text-sm text-gray-500 pb-5">
-                  Evaluación de seguridad simulando ataques reales.
+                  Identificar y corregir vulnerabilidades (Sombrero blanco/negro).
                   </p>
                   <a href="https://wa.link/n8qt4i" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
@@ -144,10 +145,10 @@ export function Sections() {
                 />
                 <div className="space-y-2">
                   <h3 className="font-bold tracking-tighter">
-                  Gestión de Eventos e Incidentes de Seguridad (SIEM)
+                  Diseño e Implementación de TICs
                   </h3>
                   <p className="text-sm text-gray-500 pb-5 ">
-                  Monitoreo en tiempo real para detectar y responder a eventos de seguridad.
+                  Infraestructura robusta, eficiente y segura para soportar las operaciones empresariales.
                   </p>
                   <a href="https://wa.link/5072h3" className="bg-blue-iscd hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">¡Asesórate ahora ! </a>
                 </div>
@@ -157,7 +158,7 @@ export function Sections() {
         </section>
         <section
           className="w-full py-12 md:py-16 lg:py-24 bg-white text-black flex justify-center"
-          id="nosotros"
+          id="equipo"
         >
           <motion.div
             className="container grid items-center justify-center gap-4 px-4 text-center md:gap-8 md:px-6 py-32"
@@ -182,7 +183,7 @@ export function Sections() {
                     height={200}
                     alt="Team member"
                     className="rounded-full aspect-square overflow-hidden object-cover object-center"
-                    src="/Kendryck.webp"
+                    src="/k.jpg"
                   />
                 </div>
                 <div className="space-y-2">

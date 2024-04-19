@@ -60,9 +60,9 @@ export function Navbar() {
           </Link>
           <Link
             className="flex items-center gap-1.5 linkeffect"
-            href="#servicios"
+            href="#nosotros"
           >
-            Servicios
+            Nosotros
           </Link>
           <Link className="flex items-center gap-1.5 " href="#">
             <Image src="/Logo1.svg" alt="ISCD" 
@@ -73,10 +73,15 @@ export function Navbar() {
           </Link>
           <Link
             className="flex items-center gap-1.5 linkeffect"
-            href="#nosotros"
+            href="#servicios"
           >
-            Nosotros
+            Servicios
           </Link>
+        {/* <Link className="flex items-center gap-1.5 linkeffect" href="#contacto">
+            Equipo
+          </Link> */}
+
+
           <Link
             className="flex items-center gap-1.5 linkeffect"
             href="#contacto"

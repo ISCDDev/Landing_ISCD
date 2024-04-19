@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <div className="h-screen">
+    <div className="h-screen" id="inicio">
       <section className="flex justify-center overlay h-full items-center">
         <div className="container px-4 space-y-10 text-center md:space-y-16 lg:space-y-20">
           <div className=" space-y-20">

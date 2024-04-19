@@ -26,7 +26,7 @@ export function Footer() {
               <li>
                 <a
                   className="text-base text-gray-300 hover:text-white"
-                  href="#"
+                  href="https://wa.link/ic21kp"
                 >
                   +593 98 799 2614
                 </a>
@@ -34,9 +34,9 @@ export function Footer() {
               <li>
                 <a
                   className="text-base text-gray-300 hover:text-white"
-                  href="#"
+                  href="mailto:iscd.ecu@iscd.tech"
                 >
-                  inf.scdev@iscd.tech
+                  iscd.ecu@iscd.tech
                 </a>
               </li>
             </ul>
@@ -54,7 +54,7 @@ export function Footer() {
               >
                 <FacebookIcon className="h-6 w-6" />
               </a>
-              <a className="text-gray-400 hover:text-gray-300" href="#">
+              <a className="text-gray-400 hover:text-gray-300" href="http://www.linkedin.com/in/iscd-ecu-9bab942bb">
                 <LinkedinIcon className="h-6 w-6" />
               </a>
             </div>
@@ -77,6 +77,14 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
+                      href="https://wa.link/3qkdmf"
+                    >
+                      Port assignment & document
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
                       href="https://wa.link/t8lu74"
                     >
                       Seguridad Integral
@@ -85,9 +93,9 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="https://wa.link/z8n6ym"
+                      href="https://wa.link/5072h3"
                     >
-                      Help Desk
+                     Diseño e Implementación de TICs
                     </a>
                   </li>
                   <li>
@@ -95,7 +103,23 @@ export function Footer() {
                       className="text-base text-gray-300 hover:text-white"
                       href="https://wa.link/n8qt4i"
                     >
-                      Hacking Etico
+                     Hacking ético/Análisis de vulnerabilidades
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="https://wa.link/hxy9mf"
+                    >
+                     Capacitación en Ciberseguridad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-base text-gray-300 hover:text-white"
+                      href="https://wa.link/1oayqq"
+                    >
+                     Cableado estructurado
                     </a>
                   </li>
                 </ul>
@@ -108,7 +132,7 @@ export function Footer() {
                   <li>
                     <a
                       className="text-base text-gray-300 hover:text-white"
-                      href="mailto:inf.scdev@iscd.tech"
+                      href="mailto:iscd.ecu@iscd.tech"
                     >
                       Correo
                     </a>

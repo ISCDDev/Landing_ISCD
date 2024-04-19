@@ -15,7 +15,7 @@ export function Services() {
     <>
       <section
         className="w-full pt-12 md:pt-20 lg:pt-20 text-black bg-white pb-40"
-        id="inicio"
+        id="nosotros"
       >
         <div className="container space-y-12 px-4 md:px-6">
           <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
@@ -33,7 +33,7 @@ export function Services() {
                   Sobre Nosotros
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-base/relaxed">
-                Somos ISCD, una empresa fundada en 2022 por un grupo de especialistas tecnológicos. Nuestra misión es identificar y fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador. Ofrecemos soluciones integrales de ciberseguridad, mediante servicios profesionales de hacking ético, consultoría de infraestructura tecnológica y port assignment personalizado. Hemos trabajado con empresas de diferentes sectores, protegiendo sus sistemas y datos de posibles ataques cibernéticos. Así, mejoramos su rendimiento, eficiencia y confianza.
+                ISCD (Information Security Consulting Development) surgió en 2022 como respuesta a la creciente necesidad de soluciones integrales y especializadas en ciberseguridad en un entorno digital en constante cambio y cada vez más vulnerable. Fundada por un grupo de especialistas tecnológicos, nuestro propósito es fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador mediante servicios personalizados de ciberseguridad, con el fin de proteger sus sistemas y datos de posibles ataques cibernéticos, mejorando así su rendimiento, eficiencia y confianza.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ export function Services() {
         ></video>
         <section
           className="w-full pt-12 md:pt-24 lg:pt-32 text-black bg-white pb-10 z-30 flex justify-center"
-          id="servicios"
+       
         >
           <div className="container space-y-12 px-4 md:px-6">
             <div className="grid items-center gap-6 lg:grid-cols-[600px_1fr] lg:gap-12 xl:grid-cols-[700px_1fr]">
