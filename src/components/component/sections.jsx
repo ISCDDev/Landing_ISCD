@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import { FormContact } from "./form-contact";
 export function Sections() {
   return (
     <div className="flex flex-col w-full min-h-screen text-white">
@@ -307,7 +307,13 @@ export function Sections() {
             </div>
           </motion.div>
         </section> */}
-        <section className="w-full py-80 flex justify-center" id="contacto">
+
+
+
+<FormContact />
+
+
+        {/* <section className="w-full py-80 flex justify-center" id="contacto">
           <motion.div
             className="container px-4 md:px-6"
             initial={{ opacity: 0, scale: 0.4 }}
@@ -327,12 +333,7 @@ export function Sections() {
               Contáctanos por Whatsapp hoy día y aprender mas sobre nuestros servicios.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                {/* <Link
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
-                  href="#"
-                >
-                  Contact Us
-                </Link> */}
+                
                 <motion.a
                   href="https://wa.link/ic21kp"
                   className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
@@ -345,7 +346,7 @@ export function Sections() {
               </div>
             </div>
           </motion.div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
