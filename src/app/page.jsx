@@ -1,14 +1,13 @@
+import { ClientOnly } from "@/components/component/client-only";
 import { HeroSection } from "@/components/component/hero-section";
 import { Navbar } from "@/components/component/navbar";
 import { Sections } from "@/components/component/sections";
 import { Services } from "@/components/component/services";
 import { Footer } from "@/components/component/footer";
 
-export const dynamic = 'force-dynamic';
-
 export default function Home() {
   return (
-    <>
+    <ClientOnly>
       {/* <video src="wallpaper3.mp4" autoPlay muted loop className="background-video video-filter" /> */}
       <Navbar />
       <HeroSection />
@@ -30,6 +29,6 @@ export default function Home() {
           zIndex: -1,
         }}
       />
-    </>
+    </ClientOnly>
   );
 }

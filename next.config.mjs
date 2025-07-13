@@ -2,20 +2,15 @@
 import withVideos from "next-videos";
 
 const nextConfig = {
-  output: 'standalone',
-  experimental: {
-    esmExternals: false,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
-  trailingSlash: true,
   images: {
     unoptimized: true,
   },
 };
 
-export default {
-    ...nextConfig,
-    ...withVideos(),
-};
+export default withVideos(nextConfig);
 
 
 
