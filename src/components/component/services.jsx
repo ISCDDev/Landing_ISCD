@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Lottie from "lottie-react";
+import { LottieWrapper } from "./lottie-wrapper";
 import animacion from "../../../public/animacionweb.json";
 import animacion2 from "../../../public/animacionweb2.json";
 import { CardHeader, CardContent, Card } from "@/components/ui/card";
@@ -33,7 +33,7 @@ export function Services() {
                   Sobre Nosotros
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-base/relaxed">
-                ISCD (Information Security Consulting Development) surgió en 2022 como respuesta a la creciente necesidad de soluciones integrales y especializadas en ciberseguridad en un entorno digital en constante cambio y cada vez más vulnerable. Fundada por un grupo de especialistas tecnológicos, nuestro propósito es fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador mediante servicios personalizados de ciberseguridad, con el fin de proteger sus sistemas y datos de posibles ataques cibernéticos, mejorando así su rendimiento, eficiencia y confianza.
+                ISCD (Information Security Consulting Development) surgió en 2022 como respuesta a la creciente necesidad de soluciones integrales y especializadas en ciberseguridad en un entorno digital en constante cambio y cada vez más vulnerable. Fundada por un grupo de especialistas tecnológicos, nuestro propósito es fortalecer la seguridad y defensa cibernética de las pequeñas y medianas empresas de Quito, Ecuador mediante servicios personalizados de ciberseguridad, con el fin de proteger sus sistemas y datos de posibles ataques cibernéticos, mejorando así su rendimiento, eficiencia y confianza.
                 </p>
               </div>
             </motion.div>
@@ -126,7 +126,7 @@ export function Services() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 2 }}
               >
-                <Lottie
+                <LottieWrapper
                   animationData={animacion2}
                   style={{ width: "100%", height: "100%" }}
                 />
@@ -175,7 +175,7 @@ export function Services() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 2 }}
                 >
-                  <Lottie
+                  <LottieWrapper
                     animationData={animacion}
                     style={{ width: "100%", height: "100%" }}
                   />

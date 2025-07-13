@@ -3,6 +3,9 @@ import { Navbar } from "@/components/component/navbar";
 import { Sections } from "@/components/component/sections";
 import { Services } from "@/components/component/services";
 import { Footer } from "@/components/component/footer";
+
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <>

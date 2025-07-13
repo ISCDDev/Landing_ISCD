@@ -6,6 +6,18 @@ const RandomTextEffect = ({ originalText, className }) => {
   const [displayedText, setDisplayedText] = useState("snfprtjsmfe qasngt vndytpujxs pdjwmkfptj");
 
   useEffect(() => {
+    const generateRandomText = (text) => {
+      return text
+        .split('')
+        .map((char) => (char === ' ' ? ' ' : getRandomChar()))
+        .join('');
+    };
+
+    const getRandomChar = () => {
+      const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+      return alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+    };
+
     let timer;
     timer = setInterval(() => {
       const randomText = generateRandomText(originalText);
@@ -19,18 +31,6 @@ const RandomTextEffect = ({ originalText, className }) => {
 
     return () => clearInterval(timer);
   }, [originalText]);
-
-  const generateRandomText = (text) => {
-    return text
-      .split('')
-      .map((char) => (char === ' ' ? ' ' : getRandomChar()))
-      .join('');
-  };
-
-  const getRandomChar = () => {
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-    return alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-  };
 
   return (
     <motion.h1 className={className} 

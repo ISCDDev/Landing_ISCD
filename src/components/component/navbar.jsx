@@ -15,15 +15,26 @@ export function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
   const checkScreenSize = () => {
-    setIsLargeScreen(window.innerWidth > 1280);
+    if (typeof window !== 'undefined') {
+      setIsLargeScreen(window.innerWidth > 1280);
+    }
   };
   useEffect(() => {
     checkScreenSize();
-    window.addEventListener("resize", checkScreenSize);
-    return () => {
-      window.removeEventListener("resize", checkScreenSize);
-    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", checkScreenSize);
+      return () => {
+        window.removeEventListener("resize", checkScreenSize);
+      };
+    }
   }, []);
+
+  const handleInstagramClick = () => {
+    if (typeof window !== 'undefined') {
+      window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
+    }
+  };
+
   return (
     <>
       <motion.header
@@ -147,9 +158,7 @@ export function Navbar() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          onClick={() => {
-            window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
-          }}
+          onClick={handleInstagramClick}
         >
          ¡Únete!
         </motion.button>

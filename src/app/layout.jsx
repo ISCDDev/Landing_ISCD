@@ -14,8 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-N18V0B51G1" />
+      <body className={inter.className}>
+        {children}
+        <GoogleAnalytics gaId="G-N18V0B51G1" />
+      </body>
     </html>
   );
 }

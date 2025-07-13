@@ -3,6 +3,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export function NavbarResponsive({ isMenuOpen, closeMenu })  {
+  const handleInstagramClick = () => {
+    if (typeof window !== 'undefined') {
+      window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
+    }
+  };
+
   return (
     <motion.div
     className="fixed top-0 left-0 w-full h-full overflow-y-hidden flex flex-col items-start justify-between bg-black text-white p-8 bg-opacity-50 backdrop-blur-lg z-40 pb-20"
@@ -66,9 +72,7 @@ export function NavbarResponsive({ isMenuOpen, closeMenu })  {
       whileInView={{ opacity: 1, y: 0}}
       transition={{ duration: 2.3 }}
           className="button bg-white rounded-full h-8 w-24 text-base justify-center text-black border"
-          onClick={() => {
-            window.location.href = "https://www.instagram.com/iscd.ecu?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr";
-          }}
+          onClick={handleInstagramClick}
         >
           ¡Únete!
       </motion.button>
